@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-max7219_8x8": "github:alankrantas/pxt-max7219_8x8#v0.0.3"
     },
     "files": [
         "README.md",
