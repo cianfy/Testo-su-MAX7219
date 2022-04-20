@@ -11,7 +11,7 @@ false
 )
 basic.forever(function () {
     max7219_matrix.scrollText(
-    "Hello world!",
+    "Benvenuti in 2D !!!",
     75,
     500
     )
