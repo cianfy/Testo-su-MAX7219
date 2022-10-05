@@ -11,8 +11,14 @@ false
 )
 basic.forever(function () {
     max7219_matrix.scrollText(
-    "Benvenuti in 2D !!!",
+    "Mattia",
     75,
-    500
+    100
     )
+    for (let index = 0; index < 50; index++) {
+        max7219_matrix.randomizeAll()
+        basic.pause(100)
+    }
+    max7219_matrix.fillAll()
+    basic.pause(2000)
 })
